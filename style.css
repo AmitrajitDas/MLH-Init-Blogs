@@ -3,14 +3,18 @@
 body {
   margin: 0;
   padding: 0;
-  background: #02006e;
+  background: linear-gradient(to right, #AA2EE6, #FFA900);
 	font-family: ubuntu;
 }
 
 header {
   display: flex;
   align-items: center;
-  background: #e7e7ff;
+  /* background: #e7e7ff; */
+}
+
+h1 {
+  color: white;
 }
 
 header img {
@@ -21,14 +25,30 @@ header img {
 }
 
 article {
-  background: white;
-  border: 3px solid #a0a0a0;
+  background: #F6DFEB;
+  border: 3px solid #FC92E3;
   width: 90%;
   margin: 20px auto;
-  border-radius: 10px;
+  border-radius: 2rem;
   padding: 10px;
 }
 
 hr, article .date {
   color: #a0a0a0;
+}
+
+.git-icon {
+  margin-left: 5rem;
+  color: #F6DFEB;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.linkedin-icon {
+
+  margin-left: 2rem;
+  color: #F6DFEB;
+  cursor: pointer;
+  text-decoration: none;
+
 }
